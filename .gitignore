@@ -1,0 +1,13 @@
+# Compiled files
+*.o
+yorozuya
+a.out
+
+# IDE files
+.vscode/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
