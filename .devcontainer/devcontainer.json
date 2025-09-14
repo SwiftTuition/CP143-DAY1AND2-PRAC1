@@ -1,0 +1,25 @@
+{
+  "name": "CP143 C Development",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack"
+      ],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "editor.formatOnSave": true,
+        "C_Cpp.default.cStandard": "c99"
+      }
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y gcc make && echo '✅ Environment ready! Run: make test'",
+  "remoteUser": "vscode"
+}
