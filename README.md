@@ -1,32 +1,3 @@
-You're absolutely right! Let me look at the CP143 materials more carefully. Based on the 10-day programme and Practical 2, we're at Day 1-2 level focusing on basic C programming, not C++. 
-
-Let me create an appropriate practical for CP143 students who are just learning:
-- Basic C programming (scanf/printf)
-- Arithmetic operations
-- Simple if/else statements
-- Basic loops
-
-I'll create a Gintama-themed practical that gently introduces multiple files and Makefiles while staying within their current knowledge level.
-
-## Complete Project Structure for CP143
-
-```
-cp143-yorozuya-calculator/
-├── .devcontainer/
-│   └── devcontainer.json
-├── src/
-│   ├── parfait.h
-│   ├── parfait.c
-│   └── main.c
-├── Makefile
-├── README.md
-└── .gitignore
-```
-
-## Step-by-Step Files
-
-### README.md
-```markdown
 # CP143 Practical: The Yorozuya Parfait Calculator
 
 ## 🍓 Story: Gintoki's Parfait Problem
